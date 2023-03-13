@@ -25,6 +25,7 @@ export default class ClassCounter extends React.Component {
             <button style={style} onClick={() => this.onChange(-1)}>-</button>
             <span>{this.state.count}</span>
             <button style={style}  onClick={() => this.onChange(1)}>+</button>
+            <p>This the new feature i add to this component..</p>
           </div>)}
     
           </ThemeContext.Consumer>
