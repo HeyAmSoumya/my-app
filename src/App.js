@@ -6,13 +6,13 @@ export const ThemeContext = React.createContext();
 
 function App() {
   // Set the theme here.. by using the setTheme...
-  const [theme, setTheme] = useState('red')
+  const [theme, setTheme] = useState('green')
   return (
     <ThemeContext.Provider value={{ backgroundColor: theme }} >
       <ClassCounter intialCounter={0} />
       <FunctionCounter intialCounter={0} />
 
-      <button onClick={() => setTheme((prevValue) => prevValue === 'red' ? 'blue' : 'red')}>Toggle Theme</button>
+      <button onClick={() => setTheme((prevValue) => prevValue === 'green' ? 'blue' : 'green')}>Toggle Theme</button>
     </ThemeContext.Provider>
 
   );
