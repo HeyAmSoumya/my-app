@@ -1,5 +1,5 @@
 
-import React , { Component , useContext} from 'react';
+import React  from 'react';
 import { ThemeContext } from '../App';
 
 export default class ClassCounter extends React.Component {
